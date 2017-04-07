@@ -1,0 +1,14 @@
+#footer {
+    padding: 2em;
+    font-weight: 600;
+    font-size: 1.25em;
+    text-align: center;
+
+    a {
+        color: #000;
+
+        &:hover, &:focus {
+            text-decoration: none;
+        }
+    }
+}

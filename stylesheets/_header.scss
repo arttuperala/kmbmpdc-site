@@ -1,0 +1,93 @@
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    height: 100vh;
+    overflow: hidden;
+
+    background-color: $brand-primary;
+    color: #fff;
+
+    h1 {
+        font-size: 15vmin;
+        text-shadow: 5px 5px 0px $brand-primary;
+    }
+    h2 {
+        font-size: 3vmin;
+        font-weight: 200;
+        text-shadow: 1px 1px 0px $brand-primary;
+    }
+    .menubar {
+        display: flex;
+        justify-content: space-between;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 23px;
+        width: 100%;
+        z-index: 10;
+        
+        color: #474747;
+        background-color: #fafafa;
+        font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.10);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+        background-clip: content-box;
+
+        ul {
+            list-style: none;
+
+            li {
+                display: inline-block;
+                margin: 0 9px;
+
+                &.bold {
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+
+#menubarClock {
+    width: 40px;
+    text-align: left;
+}
+
+.controller-icon {
+    width: 16px;
+    height: 16px;
+
+    img {
+        position: relative;
+        right: 265px;
+        display: block;
+    }
+}
+
+.down-arrow {
+    position: absolute;
+    bottom: 0.5vw;
+    width: 1.5em;
+    height: 1.5em;
+    border: 1.5em solid rgba(0, 0, 0, 0);
+    border-top: 1.5em solid #fff;
+    z-index: 50;
+}
+
+.header-text {
+    z-index: 50;
+}
+
+.left {
+    text-align: left;
+    padding: 0 0 0 46px;
+}
+
+.right {
+    text-align: right;
+}

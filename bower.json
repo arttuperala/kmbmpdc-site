@@ -1,0 +1,20 @@
+{
+  "name": "kmbmpdc-site",
+  "description": "Homepage for kawaii menubar music player daemon controller",
+  "main": "",
+  "authors": [
+    "Arttu Perälä <arttu@perala.me>"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "https://kmbmpdc.perala.me",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}

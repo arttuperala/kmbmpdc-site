@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fa296c"/>
+    <title>kmbmpdc - kawaii menubar music player daemon controller</title>
+    <link rel="stylesheet" href="css/kmbmpdc.css">
+    <link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="static/favicon.ico" type="image/x-icon">
+    <script src="js/kmbmpdc.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+<body>
+    <div class="container-fluid" id="header">
+        <div class="menubar hidden-xs-down">
+            <ul class="left">
+                <li class="bold">Finder</li>
+                <li>File</li>
+                <li>Edit</li>
+                <li>View</li>
+                <li>Go</li>
+                <li>Window</li>
+                <li>Help</li>
+            </ul>
+            <ul class="right">
+                <li class="controller-icon">
+                    <img src="static/controller.png">
+                </li>
+                <li id="menubarClock">0:00</li>
+            </ul>
+        </div>
+        <div class="header-text">
+            <h1>kmbmpdc</h1>
+            <h2>kawaii menubar music player daemon controller</h2>
+        </div>
+        <span class="down-arrow"></span>
+    </div>
+    <div class="container-fluid" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Menubar controller</h3>
+                        <p>You can access basic playback controls from a pop-out menubar controller. The icon for the controller indicates current MPD playback status.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Media key support</h3>
+                        <p>You don't even have to open the controller to pause your music or to skip a song.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Cover art</h3>
+                        <p>kmbmpdc displays the cover art for the currently playing item, so you can admire the beautiful cover art for your music collection.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Track queue</h3>
+                        <p>You can see what tracks will play next in your queue with the togglable track queue.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Search</h3>
+                        <p>kmbmpdc has a search window you can use to find tracks in your library and add them to various places in your </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Notifications</h3>
+                        <p>Keep track of songs with track change notifications.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Playlists</h3>
+                        <p>Easily start playing your favourite playlist by just selecting it from the playlist menu.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Stop after current</h3>
+                        <p>Just one more song? Click the <em>Stop after current</em> button and MPD playback will stop as soon as your track is finished.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature">
+                        <h3>Free!</h3>
+                        <p>Free as in free beer and free as in <em>Apache License 2.0</em> (freedom).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="download">
+        <div class="container">
+            <a id="downloadButton" href="https://github.com/arttuperala/kmbmpdc/releases/latest" class="btn btn-primary btn-lg btn-block">
+                Download <span id="latestVersion">latest version</span>
+            </a>
+            <p>If you are a <a href="https://caskroom.github.io/" target="_blank">Homebrew-Cask</a> user, you can install kmbmpdc with <code>brew cask install kmbmpdc</code>.</p>
+        </div>
+    </div>
+    <div class="container-fluid" id="support">
+        <div class="container">
+            <p>Check the <a href="https://github.com/arttuperala/kmbmpdc" target="_blank">Github repository</a> for more details. For bug reports or feature requests, open up an issue on the <a href="https://github.com/arttuperala/kmbmpdc/issues" target="_blank">issue tracker</a>. And if you like the application, give it a star on Github to help other people discover it.</p>
+        </div>
+    </div>
+    <div class="container-fluid" id="footer">
+        <a href="https://perala.me" target="_blank">PERÄLÄ 2017</a>
+    </div>
+</body>
+</html>
