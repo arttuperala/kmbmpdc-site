@@ -1,5 +1,7 @@
 language: node_js
 node_js: "7"
+before_install:
+- yarn
 install:
 - gulp
 before_deploy:
