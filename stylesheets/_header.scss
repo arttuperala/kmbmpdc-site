@@ -50,6 +50,10 @@
                 }
             }
         }
+
+        @media screen and (max-width: 500px), screen and (max-height: 411px) {
+            display: none;
+        }
     }
 }
 
@@ -59,14 +63,11 @@
 }
 
 .controller-icon {
-    width: 16px;
-    height: 16px;
-
-    img {
-        position: relative;
-        right: 265px;
-        display: block;
-    }
+    height: 481px;
+    overflow-x: hidden;
+    position: absolute;
+    right: 0;
+    width: 340px;
 }
 
 .down-arrow {
